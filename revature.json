@@ -1,0 +1,20 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "tests/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_problem1_get_all_smiths",
+          "label": "Verify filtering by last_name = 'Smith'",
+          "description": "Runs problem1(), which should return all employees with the last name 'Smith'."
+        },
+        {
+          "methodName": "test_problem2_salary_greater_than",
+          "label": "Verify filtering by salary > 75000",
+          "description": "Runs problem2(), which should return all employees with a salary greater than $75,000."
+        }
+      ]
+    }
+  ]
+}
